@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Tec Web</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HTML</h1>
+    </main>
+    <table>
+        <thead>
+            <tr>
+                <th>Nro</th>
+                <th>Elemento</th>
+                <th>Propósito</th>
+                <th>Elemento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>&lt;a&gt;</td>
+                <td>Crea enlaces a otras páginas web o recursos en línea.</td>
+                <td>&lt;a href="https://www.mozilla.com/">Enlace externo&lt;/a&gt;</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>&lt;area&gt;</td>
+                <td>Se utiliza en conjunto con el elemento &lt;map&gt; para definir áreas en un mapa de imágenes que son enlaces clicables.</td>
+                <td>
+                    &lt;map name="mapa"&gt;<br>
+                    &lt;area shape="rect" coords="0,0,50,50" href="pagina1.html" alt="Área 1"&gt;<br>
+                    &lt;area shape="circle" coords="100,100,50" href="pagina2.html" alt="Área 2"&gt;<br>
+                    &lt;/map&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>&lt;abbr&gt;</td>
+                <td>Define una abreviatura o acrónimo con información adicional en un atributo "title".</td>
+                <td>&lt;p&gt; I do &lt;abbr title="HTML"&gt;HTML&lt;/abbr&gt; &lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>&lt;address&gt;</td>
+                <td>Se utiliza para representar información de contacto o detalles de ubicación.</td>
+                <td>
+                    &lt;address&gt;<br>
+                    Puedes contactar al autor en &lt;a href="http://www.somedomain.com/contact"&gt;www.somedomain.com&lt;/a&gt;. <br>
+                    Si encuentras errores, por favor &lt;a href="mailto:webmaster@somedomain.com"&gt;contacta al webmaster&lt;/a&gt;. <br>
+                    También puedes visitarnos en:<br>
+                    Mozilla Foundation<br>
+                    1981 Landings Drive<br>
+                    Building K<br>
+                    Mountain View, CA 94043-0801<br>
+                    USA<br>
+                    &lt;/address&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>&lt;article&gt;</td>
+                <td>Define un artículo o contenido independiente y completo.</td>
+                <td>&lt;article&gt;Contenido del artículo&lt;/article&gt;</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>&lt;aside&gt;</td>
+                <td>Se utiliza para contenido relacionado pero no esencial dentro de una página.</td>
+                <td>&lt;aside&gt;Contenido relacionado&lt;/aside&gt;</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>&lt;audio&gt;</td>
+                <td>Permite la inclusión de audio en una página web.</td>
+                <td>&lt;audio src="mi_audio.mp3" controls&gt;&lt;/audio&gt;</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>&lt;b&gt;</td>
+                <td>Define texto en negrita.</td>
+                <td>&lt;b&gt;Texto en negrita&lt;/b&gt;</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>&lt;base&gt;</td>
+                <td>Se utiliza para definir una URL base para las URL relativas en un documento.</td>
+                <td>&lt;base href="https://www.example.com/" /&gt;</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>&lt;bdo&gt;</td>
+                <td>Controla la dirección del texto bidireccional.</td>
+                <td>&lt;bdo dir="rtl"&gt;Texto en RTL&lt;/bdo&gt;</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>&lt;bdi&gt;</td>
+                <td>Isola texto bidireccional para evitar conflictos de direccionalidad.</td>
+                <td>&lt;bdi&gt;مرحبًا&lt;/bdi&gt;</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>&lt;body&gt;</td>
+                <td>El elemento HTML &lt;body&gt; representa el contenido principal de un documento HTML.</td>
+                <td>&lt;body&gt;<br>
+                    &lt;h1&gt;Título de la página&lt;/h1&gt;<br>
+                    &lt;p&gt;Este es el contenido principal de la página.&lt;/p&gt;<br>
+                    &lt;img src="imagen.jpg" alt="Imagen de ejemplo"&gt;<br>
+                    &lt;a href="https://www.ejemplo.com"&gt;Enlace a ejemplo.com&lt;/a&gt;<br>
+                    &lt;/body&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>&lt;blockquote&gt;</td>
+                <td>Representa una cita o bloque de texto citado.</td>
+                <td>&lt;blockquote&gt;Este es un bloque de citas.&lt;/blockquote&gt;</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>&lt;br&gt;</td>
+                <td>Inserta un salto de línea en el texto.</td>
+                <td>Texto antes&lt;br&gt;Texto después</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>&lt;button&gt;</td>
+                <td>Crea un botón interactivo en un formulario.</td>
+                <td>&lt;button&gt;Haz clic&lt;/button&gt;</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>&lt;canvas&gt;</td>
+                <td>Proporciona un área de dibujo gráfico usando JavaScript.</td>
+                <td>&lt;canvas id="miCanvas" width="200" height="100"&gt;&lt;/canvas&gt;</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>&lt;code&gt;</td>
+                <td>Utilizado para mostrar fragmentos de código fuente.</td>
+                <td>&lt;code&gt;var x = 10;&lt;/code&gt;</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>&lt;data&gt;</td>
+                <td>Define un valor de datos asociado con un elemento.</td>
+                <td>&lt;p&gt;La temperatura es &lt;data value="25"&gt;25&lt;/data&gt; grados Celsius.&lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>&lt;datalist&gt;</td>
+                <td>Crea una lista predefinida para elementos &lt;input&gt;.</td>
+                <td>
+                    &lt;input list="frutas"&gt;<br>
+                    &lt;datalist id="frutas"&gt;<br>
+                    &lt;option value="Manzana"&gt;<br>
+                    &lt;option value="Banana"&gt;<br>
+                    &lt;option value="Naranja"&gt;<br>
+                    &lt;/datalist&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>&lt;del&gt;</td>
+                <td>Muestra texto eliminado o tachado.</td>
+                <td>&lt;del&gt;Este texto está eliminado&lt;/del&gt;</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>&lt;details&gt;</td>
+                <td>Define un elemento de detalles desplegable.</td>
+                <td>
+                    &lt;details&gt;<br>
+                    &lt;summary&gt;Haz clic para ver los detalles&lt;/summary&gt;<br>
+                    &lt;p&gt;Detalles ocultos&lt;/p&gt;<br>
+                    &lt;/details&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>&lt;dfn&gt;</td>
+                <td>Define un término o una frase que se va a destacar.</td>
+                <td>&lt;dfn&gt;Definición del término&lt;/dfn&gt;</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>&lt;div&gt;</td>
+                <td>Se utiliza como un contenedor genérico para contenido en bloque.</td>
+                <td>&lt;div&gt;Contenido aquí&lt;/div&gt;</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>&lt;dl&gt;</td>
+                <td>Crea una lista de definición para términos y sus definiciones.</td>
+                <td>
+                    &lt;dl&gt;<br>
+                    &lt;dt&gt;Término 1&lt;/dt&gt;<br>
+                    &lt;dd&gt;Definición 1&lt;/dd&gt;<br>
+                    &lt;dt&gt;Término 2&lt;/dt&gt;<br>
+                    &lt;dd&gt;Definición 2&lt;/dd&gt;<br>
+                    &lt;/dl&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>&lt;em&gt;</td>
+                <td>Resalta texto para darle énfasis.</td>
+                <td>Este es un texto &lt;em&gt;enfatizado&lt;/em&gt;</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>&lt;embed&gt;</td>
+                <td>Permite la incrustación de contenido multimedia, como videos y aplicaciones.</td>
+                <td>&lt;embed src="video.mp4"&gt;</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>&lt;fieldset&gt;</td>
+                <td>Define un grupo de controles de formulario relacionados.</td>
+                <td>
+                    &lt;fieldset&gt;<br>
+                    &lt;legend&gt;Datos personales&lt;/legend&gt;<br>
+                    ... Controles de formulario aquí ...<br>
+                    &lt;/fieldset&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>&lt;figure&gt;</td>
+                <td>Usado para agrupar una imagen y su descripción.</td>
+                <td>
+                    &lt;figure&gt;<br>
+                    &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;<br>
+                    &lt;figcaption&gt;Pie de foto&lt;/figcaption&gt;<br>
+                    &lt;/figure&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>&lt;footer&gt;</td>
+                <td>Representa el pie de página de una sección o página web.</td>
+                <td>&lt;footer&gt;© 2023 Mi Sitio Web&lt;/footer&gt;</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>&lt;form&gt;</td>
+                <td>Elemento para crear formularios interactivos en una página web.</td>
+                <td>
+                    &lt;form action="procesar.php" method="post"&gt;<br>
+                    ... Controles de formulario aquí ...<br>
+                    &lt;/form&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt;</td>
+                <td>Encabezados de nivel 1 a 6 para títulos y subtítulos.</td>
+                <td>
+                    &lt;h1&gt;Encabezado de nivel 1&lt;/h1&gt;<br>
+                    &lt;h2&gt;Encabezado de nivel 2&lt;/h2&gt;<br>
+                    &lt;h3&gt;Encabezado de nivel 3&lt;/h3&gt;<br>
+                    &lt;h4&gt;Encabezado de nivel 4&lt;/h4&gt;<br>
+                    &lt;h5&gt;Encabezado de nivel 5&lt;/h5&gt;<br>
+                    &lt;h6&gt;Encabezado de nivel 6&lt;/h6&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>&lt;header&gt;</td>
+                <td>Define el encabezado de una sección o página.</td>
+                <td>&lt;header&gt;Encabezado de página&lt;/header&gt;</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>&lt;hgroup&gt;</td>
+                <td>Grupo de encabezados para organizar títulos y subtítulos.</td>
+                <td>
+                    &lt;hgroup&gt;<br>
+                    &lt;h1&gt;Título principal&lt;/h1&gt;<br>
+                    &lt;h2&gt;Subtítulo&lt;/h2&gt;<br>
+                    &lt;/hgroup&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>&lt;hr&gt;</td>
+                <td>Crea una línea horizontal para separar contenido.</td>
+                <td>&lt;hr&gt;</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>&lt;i&gt;</td>
+                <td>Define texto en cursiva.</td>
+                <td>Este es un texto &lt;i&gt;en cursiva&lt;/i&gt;</td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>&lt;iframe&gt;</td>
+                <td>Se utiliza para insertar contenido de otras páginas web en un marco.</td>
+                <td>&lt;iframe src="pagina.html"&gt;&lt;/iframe&gt;</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>&lt;img&gt;</td>
+                <td>Elemento para mostrar imágenes en una página web.</td>
+                <td>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>&lt;input&gt;</td>
+                <td>Control de entrada de formulario para diferentes tipos de entrada.</td>
+                <td>&lt;input type="text" name="nombre"&gt;</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>&lt;ins&gt;</td>
+                <td>Texto insertado o subrayado.</td>
+                <td>&lt;ins&gt;Este texto está insertado&lt;/ins&gt;</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>&lt;kbd&gt;</td>
+                <td>Usado para representar entrada de teclado o comandos.</td>
+                <td>Presiona &lt;kbd&gt;Ctrl + S&lt;/kbd&gt; para guardar.</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>&lt;label&gt;</td>
+                <td>Etiqueta de formulario que se asocia a un control de entrada.</td>
+                <td>
+                    &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;<br>
+                    &lt;input type="text" id="nombre"&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>&lt;link&gt;</td>
+                <td>Se usa para vincular recursos externos, como hojas de estilo CSS, a un documento HTML.</td>
+                <td>&lt;link href="style.css" rel="stylesheet" /&gt;</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>&lt;main&gt;</td>
+                <td>Contenido principal.</td>
+                <td>&lt;main&gt;Contenido principal aquí&lt;/main&gt;</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>&lt;map&gt;</td>
+                <td>Mapa de imagen para imágenes con áreas interactivas.</td>
+                <td>
+                    &lt;img src="plano.png" usemap="#mapa"&gt;<br>
+                    &lt;map name="mapa"&gt;<br>
+                    ... Áreas interactivas aquí ...<br>
+                    &lt;/map&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>&lt;mark&gt;</td>
+                <td>Texto resaltado.</td>
+                <td>Este es un texto &lt;mark&gt;resaltado&lt;/mark&gt;</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>&lt;math&gt;</td>
+                <td>Contenedor para notación matemática.</td>
+                <td>
+                    &lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;<br>
+                    ... Notación matemática aquí ...<br>
+                    &lt;/math&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td>&lt;menu&gt;</td>
+                <td>Elemento de menú.</td>
+                <td>
+                    &lt;menu type="toolbar"&gt;<br>
+                    ... Ítems de menú aquí ...<br>
+                    &lt;/menu&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>&lt;meter&gt;</td>
+                <td>Medidor de valor dentro de un rango conocido.</td>
+                <td>&lt;meter min="0" max="100" value="50"&gt;</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>&lt;meta&gt;</td>
+                <td>Proporciona metadatos sobre la página web.</td>
+                <td>
+                    &lt;meta name="description" content="Descripción de la página"&gt;<br>
+                    &lt;meta name="author" content="Autor de la página"&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>&lt;nav&gt;</td>
+                <td>Elemento de navegación.</td>
+                <td>&lt;nav&gt;Enlaces de navegación aquí&lt;/nav&gt;</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>&lt;noscript&gt;</td>
+                <td>Contenido alternativo para navegadores que no admiten JavaScript.</td>
+                <td>
+                    &lt;script&gt;Este es un script&lt;/script&gt;<br>
+                    &lt;noscript&gt;Contenido alternativo aquí&lt;/noscript&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td>&lt;object&gt;</td>
+                <td>Elemento para incrustar objetos multimedia.</td>
+                <td>&lt;object data="video.mp4"&gt;&lt;/object&gt;</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td>&lt;ol&gt;</td>
+                <td>Lista ordenada.</td>
+                <td>
+                    &lt;ol&gt;<br>
+                    &lt;li&gt;Elemento 1&lt;/li&gt;<br>
+                    &lt;li&gt;Elemento 2&lt;/li&gt;<br>
+                    &lt;/ol&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>&lt;output&gt;</td>
+                <td>Resultado de un cálculo o proceso.</td>
+                <td>
+                    &lt;form oninput="resultado.value = a.valueAsNumber + b.valueAsNumber"&gt;<br>
+                    &lt;input type="number" id="a" value="0"&gt; +<br>
+                    &lt;input type="number" id="b" value="0"&gt; =<br>
+                    &lt;output name="resultado"&gt;0&lt;/output&gt;<br>
+                    &lt;/form&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>&lt;p&gt;</td>
+                <td>Párrafo.</td>
+                <td>&lt;p&gt;Este es un párrafo&lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td>&lt;image&gt;</td>
+                <td>Imagen SVG.</td>
+                <td>&lt;image xlink:href="imagen.svg" width="100" height="100"&gt;&lt;/image&gt;</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>&lt;pre&gt;</td>
+                <td>Texto preformateado.</td>
+                <td>
+                    &lt;pre&gt;<br>
+                    Texto preformateado aquí<br>
+                    &lt;/pre&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td>&lt;progress&gt;</td>
+                <td>Barra de progreso.</td>
+                <td>&lt;progress value="50" max="100"&gt;&lt;/progress&gt;</td>
+            </tr>
+            <tr>
+                <td>59</td>
+                <td>&lt;q&gt;</td>
+                <td>Cita en línea.</td>
+                <td>&lt;p&gt;Esto es una &lt;q&gt;cita en línea&lt;/q&gt; en un párrafo.&lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>&lt;ruby&gt;</td>
+                <td>Anotaciones de ruby.</td>
+                <td>
+                    &lt;ruby&gt;<br>
+                    &lt;rb&gt;漢字&lt;/rb&gt;<br>
+                    &lt;rt&gt;かんじ&lt;/rt&gt;<br>
+                    &lt;/ruby&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>61</td>
+                <td>&lt;s&gt;</td>
+                <td>Texto tachado.</td>
+                <td>Este es un texto &lt;s&gt;tachado&lt;/s&gt;.</td>
+            </tr>
+            <tr>
+                <td>62</td>
+                <td>&lt;samp&gt;</td>
+                <td>Muestra de código.</td>
+                <td>Este es un ejemplo de &lt;samp&gt;código&lt;/samp&gt;.</td>
+            </tr>
+            <tr>
+                <td>63</td>
+                <td>&lt;script&gt;</td>
+                <td>Elemento de script.</td>
+                <td>
+                    &lt;script type="text/javascript"&gt;<br>
+                    // Código JavaScript aquí<br>
+                    &lt;/script&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>&lt;section&gt;</td>
+                <td>Sección de contenido.</td>
+                <td>&lt;section&gt;Contenido de sección aquí&lt;/section&gt;</td>
+            </tr>
+            <tr>
+                <td>65</td>
+                <td>&lt;select&gt;</td>
+                <td>Lista desplegable.</td>
+                <td>
+                    &lt;select name="opciones"&gt;<br>
+                    &lt;option value="opcion1"&gt;Opción 1&lt;/option&gt;<br>
+                    &lt;option value="opcion2"&gt;Opción 2&lt;/option&gt;<br>
+                    &lt;/select&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>66</td>
+                <td>&lt;small&gt;</td>
+                <td>Texto pequeño.</td>
+                <td>Este es un texto &lt;small&gt;pequeño&lt;/small&gt;.</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>&lt;span&gt;</td>
+                <td>Contenedor en línea genérico.</td>
+                <td>Este es un &lt;span&gt;contenedor en línea&lt;/span&gt;.</td>
+            </tr>
+            <tr>
+                <td>68</td>
+                <td>&lt;strong&gt;</td>
+                <td>Texto enfatizado fuertemente.</td>
+                <td>Este es un texto &lt;strong&gt;enfatizado fuertemente&lt;/strong&gt;.</td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td>&lt;style&gt;</td>
+                <td>Se utiliza para definir estilos CSS directamente en una página web.</td>
+                <td>&lt;style&gt; p { color: red; } &lt;/style&gt;</td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>&lt;sub&gt;</td>
+                <td>Texto subíndice.</td>
+                <td>Este es un texto &lt;sub&gt;subíndice&lt;/sub&gt;.</td>
+            </tr>
+            <tr>
+                <td>71</td>
+                <td>&lt;sup&gt;</td>
+                <td>Texto superíndice.</td>
+                <td>Este es un texto &lt;sup&gt;superíndice&lt;/sup&gt;.</td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td>&lt;svg&gt;</td>
+                <td>Gráficos vectoriales escalables.</td>
+                <td>
+                    &lt;svg width="100" height="100"&gt;<br>
+                    ... Contenido SVG aquí ...<br>
+                    &lt;/svg&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>73</td>
+                <td>&lt;table&gt;</td>
+                <td>Tabla de datos.</td>
+                <td>
+                    &lt;table&gt;<br>
+                    ... Contenido de la tabla aquí ...<br>
+                    &lt;/table&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>74</td>
+                <td>&lt;template&gt;</td>
+                <td>Plantilla HTML para clonar.</td>
+                <td>
+                    &lt;template&gt;<br>
+                    ... Contenido de la plantilla aquí ...<br>
+                    &lt;/template&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>75</td>
+                <td>&lt;textarea&gt;</td>
+                <td>Área de texto multilinea.</td>
+                <td>
+                    &lt;textarea rows="4" cols="50"&gt;<br>
+                    Texto aquí<br>
+                    &lt;/textarea&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>&lt;title&gt;</td>
+                <td>Define el título de una página web que se muestra en la pestaña del navegador.</td>
+                <td>&lt;title&gt; Título de la página &lt;/title&gt;</td>
+            </tr>
+            <tr>
+                <td>77</td>
+                <td>&lt;time&gt;</td>
+                <td>Fecha/hora.</td>
+                <td>&lt;time datetime="2023-09-25"&gt;25 de septiembre de 2023&lt;/time&gt;</td>
+            </tr>
+            <tr>
+                <td>78</td>
+                <td>&lt;u&gt;</td>
+                <td>Texto subrayado.</td>
+                <td>Este es un texto &lt;u&gt;subrayado&lt;/u&gt;.</td>
+            </tr>
+            <tr>
+                <td>79</td>
+                <td>&lt;ul&gt;</td>
+                <td>Lista no ordenada.</td>
+                <td>
+                    &lt;ul&gt;<br>
+                    &lt;li&gt;Elemento 1&lt;/li&gt;<br>
+                    &lt;li&gt;Elemento 2&lt;/li&gt;<br>
+                    &lt;/ul&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>&lt;var&gt;</td>
+                <td>Variable o argumento.</td>
+                <td>Este es un valor &lt;var&gt;variable&lt;/var&gt;.</td>
+            </tr>
+            <tr>
+                <td>81</td>
+                <td>&lt;video&gt;</td>
+                <td>Elemento de video.</td>
+                <td>
+                    &lt;video controls&gt;<br>
+                    &lt;source src="video.mp4" type="video/mp4"&gt;<br>
+                    Tu navegador no admite el elemento &lt;code&gt;video&lt;/code&gt;.<br>
+                    &lt;/video&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>82</td>
+                <td>&lt;wbr&gt;</td>
+                <td>Salto de palabra sugerido.</td>
+                <td>Este es un lugar para un salto de palabra sugerido &lt;wbr&gt; en una palabra larga.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
